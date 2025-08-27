@@ -26,10 +26,13 @@ public class Concept {
 //            System.out.println("C");
 //        }
 
-        if(age < 18) {
-            System.out.println("A");
-        }
+//        if(age < 18) {
+//            System.out.println("A");
+//        }
+//
+//        System.out.println("B");
 
-        System.out.println("B");
+        int ans = 53624%1000;
+        System.out.println(ans);
     }
 }

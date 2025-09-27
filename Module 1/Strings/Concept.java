@@ -35,20 +35,30 @@ public class Concept {
 //
 //        System.out.println(v1==v2);
 
-        String s1 = "kohli";
-        System.out.println(s1.length());
-        System.out.println(s1.charAt(2));
+//        String s1 = "kohli";
+//        System.out.println(s1.length());
+//        System.out.println(s1.charAt(2));
+//
+//        s1 += "v"; // concatination O(n)
+//        System.out.println(s1);
+//
+//        char c = 'B';
+//        System.out.println((char)(c+32));
+//
+//        char x = 'f';
+//        System.out.println((char)(x-32));
+//
+//        String s2 = "KOHLI";
+//        System.out.println(s2.toLowerCase());
 
-        s1 += "v"; // concatination O(n)
-        System.out.println(s1);
 
-        char c = 'B';
-        System.out.println((char)(c+32));
+        String s = "Acciojob";
+        String x = s.substring(0,3);
 
-        char x = 'f';
-        System.out.println((char)(x-32));
+        System.out.println(x);
 
-        String s2 = "KOHLI";
-        System.out.println(s2.toLowerCase());
+        String a1 = "1000";
+        int x1 = Integer.parseInt(a1);
+        System.out.println(x1+10);
     }
 }

@@ -11,12 +11,10 @@ public class Concept {
         System.out.println(sb.length());
         System.out.println(sb.charAt(2));
 
+        sb.setCharAt(2,'d');
+        System.out.println(sb);
 
-        String s = "";
-        s += 'a';
-        s += 'b';
-        s += 'c';
-
-
+        sb.insert(0,'x');
+        System.out.println(sb);
     }
 }

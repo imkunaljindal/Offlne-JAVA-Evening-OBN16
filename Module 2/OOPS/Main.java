@@ -1,3 +1,5 @@
+import Encapsulation.Player;
+
 public class Main {
     public static void main(String[] args) {
 //
@@ -31,7 +33,20 @@ public class Main {
 //        c2.sayHello();
 //        c1.sayHello();
 
-        Elephant e = new Elephant("ABC");
-        System.out.println(e.name);
+//        Elephant e = new Elephant("ABC");
+//        System.out.println(e.name);
+
+//        BankAccount b = new BankAccount();
+//        b.setAccountNo(16546);
+//        System.out.println(b.getAccountNo());
+//
+
+//        Calculator c = new Calculator();
+//        System.out.println(c.add(4.0,4));
+
+        Avenger ironMan = new IronMan();
+        ironMan.fight();
+
+        System.out.println(ironMan.power);
     }
 }

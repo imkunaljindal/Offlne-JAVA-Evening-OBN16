@@ -10,8 +10,5 @@ public class JavaCourse implements Course{
         return numberOfStudents*1000;
     }
 
-    public int fun() {
-
-    }
 
 }

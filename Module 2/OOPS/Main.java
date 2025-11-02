@@ -44,9 +44,9 @@ public class Main {
 //        Calculator c = new Calculator();
 //        System.out.println(c.add(4.0,4));
 
-        Avenger ironMan = new IronMan();
-        ironMan.fight();
-
-        System.out.println(ironMan.power);
+//        Avenger ironMan = new IronMan();
+//        ironMan.fight();
+//
+//        System.out.println(ironMan.power);
     }
 }

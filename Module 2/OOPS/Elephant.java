@@ -1,7 +1,7 @@
 public class Elephant extends Animal {
     int eyes;
 
-    Elephant(String name) {
+    private Elephant(String name) {
         super(name);
         this.name = "abc";
         System.out.println("Elephant constructor is called");

@@ -31,7 +31,7 @@ public class Main {
         return true;
     }
 
-    static int placeQueens(int board[][], int r, int n) {
+     static int placeQueens(int board[][], int r, int n) {
         // base case
         if(r==n) {
 //            for(int i=0;i<n;i++) {

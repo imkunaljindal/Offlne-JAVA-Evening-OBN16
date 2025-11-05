@@ -57,7 +57,7 @@ class Solution {
         }
 
         Node curr = ll.head;
-        for(int i=0;i<=toRemove-1;i++) {
+        for(int i=0;i<toRemove-1;i++) {
             curr = curr.next;
         }
         curr.next = curr.next.next;

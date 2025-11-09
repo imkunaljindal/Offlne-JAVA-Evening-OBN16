@@ -46,13 +46,21 @@ class Main{
 }
 
 class Solution{
-    public long multiplyLists(Node l1,Node l2){
+    public long multiplyLists(Node l1,Node l2) {
+        long m = 1000000007;
        long a = 0;
        Node currA = l1;
-
        while(currA!=null) {
-           a = a*10 + currA.data;
+           a = (a*10 + currA.data)%m;
            currA = currA.next;
        }
+        long b = 0;
+        Node currB = l2;
+        while(currB!=null) {
+            b = (b*10 + currB.data)%m;
+            currB = currB.next;
+        }
+
+        return ((a%m)*(b%m))%m;
     }
 }

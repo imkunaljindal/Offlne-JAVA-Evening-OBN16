@@ -1,0 +1,43 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Solution {
+    public void merge(int[][] intervals) {
+        Arrays.sort(intervals,(a,b) -> a[0]-b[0]);
+
+        int s1 = intervals[0][0];
+        int e1 = intervals[0][1];
+        for(int i=1;i<intervals.length;i++) {
+            if(intervals[i][0] <= e1) {
+                // merge
+                e1 = Math.max(e1,intervals[i][1]);
+            }
+            else {
+                // independent
+                System.out.println(s1 + " " + e1);
+                s1 = intervals[i][0];
+                e1 = intervals[i][1];
+            }
+        }
+
+        System.out.println(s1 + " " + e1);
+    }
+}
+
+public class Main {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int m;
+        m = sc.nextInt();
+        int[][] A = new int[m][2];
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < 2; j++) {
+                A[i][j] = sc.nextInt();
+            }
+        }
+        Solution Obj = new Solution();
+        Obj.merge(A);
+
+    }
+}

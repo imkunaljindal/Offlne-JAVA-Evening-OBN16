@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Module 3.iml" filepath="$PROJECT_DIR$/Module 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Queues - 2/Queues - 2.iml" filepath="$PROJECT_DIR$/Queues - 2/Queues - 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack-2/Stack-2.iml" filepath="$PROJECT_DIR$/Stack-2/Stack-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stacks-3/Stacks-3.iml" filepath="$PROJECT_DIR$/Stacks-3/Stacks-3.iml" />
     </modules>

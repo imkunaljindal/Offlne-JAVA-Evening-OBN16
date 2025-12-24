@@ -53,7 +53,7 @@ public class Main {
 
         boolean leftAns = isBalanced(root.left);
         boolean rightAns = isBalanced(root.right);
-        
+
         return leftAns && rightAns;
     }
 
